@@ -1,8 +1,27 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AEAA,6BAA6B;AAuB7B,+CAA+C;AAc/C,oCAAoC;AA2BpC;;;;;;;;;;;;;MAaM;AC7EN,wBAAwB;AEWxB,6CAA6C;AAqB7C,8CAA8C",
     "sources": [
-        "main.scss"
+        "main.scss",
+        "components/abstracts/_function.scss",
+        "components/abstracts/_mixins.scss",
+        "components/abstracts/_variables.scss",
+        "components/base/_reset.scss",
+        "components/base/_typography.scss",
+        "components/layout/_footer.scss",
+        "components/layout/_forms.scss",
+        "components/layout/_grid.scss",
+        "components/layout/_header.scss",
+        "components/layout/_navigation.scss",
+        "components/layout/_sidebar.scss",
+        "components/modules/_buttons.scss",
+        "components/modules/_slider.scss",
+        "components/pages/_about.scss",
+        "components/pages/_checkout.scss",
+        "components/pages/_contact.scss",
+        "components/pages/_home.scss",
+        "components/pages/_products.scss",
+        "components/vendors/_jquery-ui.scss"
     ],
     "names": [],
     "file": "main.css"

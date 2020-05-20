@@ -1,1 +1,21 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+/* ==== Media Queries ==== */
+/*==== Media Queries mixin usage sample ==== */
+/* ==== flexbox toolkit mixin ====*/
+/* ==== flexbox toolkit mixin usage 
+
+NOTE: Since flexbox works as an axis and basis system, if the flex direction changes we're swapping the axis therefore you will need to use the opposite, for example:
+
+.vertical-centered-element {
+    @include flex-center-vertical;
+}
+
+.horizontally-centered-element {
+    flex-direction: column;
+    @include flex-center-vertical;
+}
+
+====*/
+/* ==== Variables ====*/
+/* ==== font-face mixins usage sample ==== */
+/* ===== font-size mixin usage sample ===== */
+/*# sourceMappingURL=main.css.map */

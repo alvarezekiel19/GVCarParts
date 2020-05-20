@@ -1,0 +1,78 @@
+/* ==== Media Queries ==== */
+$phone: 768;
+$large: 1024;
+$desktop: 1280;
+
+@mixin phone {
+    @media only screen and (min-width: $phone * 1px) {
+        @content;
+    }
+}
+
+@mixin large {
+    @media only screen and (min-width: $large * 1px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media only screen and (min-width: $desktop * 1px) {
+        @content;
+    }
+}
+
+/*==== Media Queries mixin usage sample ==== */
+// h1 {
+//     font-size: 10px;
+
+//     @include phone {
+//         font-size: 12px;
+//     }
+
+//     @include desktop {
+//         font-size: 20px;
+//     }
+// }
+
+
+/* ==== flexbox toolkit mixin ====*/
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flex-center-column {
+    @include flex-center;
+    flex-direction: column;
+}
+
+@mixin flex-center-vertical {
+    display: flex;
+    align-items: center;
+}
+
+@mixin flex-center-horizontal {
+    display: flex;
+    justify-content: center;
+}
+
+/* ==== flexbox toolkit mixin usage 
+
+NOTE: Since flexbox works as an axis and basis system, if the flex direction changes we're swapping the axis therefore you will need to use the opposite, for example:
+
+.vertical-centered-element {
+    @include flex-center-vertical;
+}
+
+.horizontally-centered-element {
+    flex-direction: column;
+    @include flex-center-vertical;
+}
+
+====*/
