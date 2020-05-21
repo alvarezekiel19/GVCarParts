@@ -1,24 +1,24 @@
-@import './components/abstracts/function';
-@import './components/abstracts/mixins';
-@import './components/abstracts/variables';
+@import './components/abstracts/_function';
+@import './components/abstracts/_mixins';
+@import './components/abstracts/_variables';
 
-@import './components/base/reset';
+@import './components/base/_reset';
 @import './components/base/typography';
 
-@import './components/layout/footer';
-@import './components/layout/forms';
-@import './components/layout/grid';
-@import './components/layout/header';
-@import './components/layout/navigation';
-@import './components/layout/sidebar';
+@import './components/layout/_footer';
+@import './components/layout/_forms';
+@import './components/layout/_grid';
+@import './components/layout/_header';
+@import './components/layout/_navigation';
+@import './components/layout/_sidebar';
 
-@import './components/modules/buttons';
-@import './components/modules/slider';
+@import './components/modules/_buttons';
+@import './components/modules/_slider';
 
-@import './components/pages/about';
-@import './components/pages/checkout';
-@import './components/pages/contact';
-@import './components/pages/home';
-@import './components/pages/products';
+@import './components/pages/_about';
+@import './components/pages/_checkout';
+@import './components/pages/_contact';
+@import './components/pages/_home';
+@import './components/pages/_products';
 
-@import './components/vendors/jquery-ui';
+@import './components/vendors/_jquery-ui';
